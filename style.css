@@ -70,3 +70,52 @@ button:hover {
     box-shadow: 0px 0px 5px;
     color: grey;
 }
+
+.egg {
+    /* change code below */
+    --penguin-skin: black;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+    /* change code above */
+  
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .eggwhite {
+    top: 10%;
+    left: 25%;
+    background-color: white;
+    width: 70%;
+    height: 65%;
+    border: lightcoral 1px solid;
+    border-radius: 70% 60% 80% 90%;
+  }
+  
+  .eggyolk {
+    top: 20%;
+    left: 25%;
+    background-color: yellow;
+    width: 55%;
+    height: 50%;
+    border-radius: 100% 120% 100% 100%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left: 35%;
+    background: white;
+    width: 10%;
+    height: 25%;
+    border-radius: 50%;
+    rotate: 30deg;
+  }
+  
+  .egg * {
+    position: absolute;
+  }
+  
